@@ -6,9 +6,9 @@ Proyek ini merupakan Backend sebuah **Situs Forum** yang menggunakan **Golang**,
 
 - 🔑 Autentikasi menggunakan JWT
 - 📝 CRUD **User** dan **Post**
-- Manajemen database menggunakan **migrate**
+- 📦 Manajemen database menggunakan **migrate**
 
-## 📦 🛠️ Teknologi yang Digunakan
+## 🛠️ Teknologi yang Digunakan
 
 - **Golang**
 - **Gin** (Framework)
