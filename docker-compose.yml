@@ -1,0 +1,11 @@
+services:
+  db:
+    image: mysql:latest
+    container_name: local-mysql-fast-campus
+    ports:
+      - "${DB_PORT}:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+    volumes:
+      - E:/docker-volumes/fastcampus/mysql_data:/var/lib/mysql
